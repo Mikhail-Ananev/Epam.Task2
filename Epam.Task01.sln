@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task01.Rectangle", "Epam.Task01.Rectangle\Epam.Task01.Rectangle.csproj", "{78A5917F-5CC5-44CC-AB05-018732A3F27A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task01.AnotherTriangle", "Epam.Task01.AnotherTriangle\Epam.Task01.AnotherTriangle.csproj", "{CEDA0C5E-AD36-4920-9EA8-EE9023A48E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam.Task01.Triangle", "Epam.Task01.Triangle\Epam.Task01.Triangle.csproj", "{39A8E74E-2C97-4A79-AF21-9374B072179F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{78A5917F-5CC5-44CC-AB05-018732A3F27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A5917F-5CC5-44CC-AB05-018732A3F27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A5917F-5CC5-44CC-AB05-018732A3F27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDA0C5E-AD36-4920-9EA8-EE9023A48E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDA0C5E-AD36-4920-9EA8-EE9023A48E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDA0C5E-AD36-4920-9EA8-EE9023A48E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDA0C5E-AD36-4920-9EA8-EE9023A48E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A8E74E-2C97-4A79-AF21-9374B072179F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A8E74E-2C97-4A79-AF21-9374B072179F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A8E74E-2C97-4A79-AF21-9374B072179F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A8E74E-2C97-4A79-AF21-9374B072179F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

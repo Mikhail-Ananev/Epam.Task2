@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("Epam.Task01.Triangle")]
+[assembly: AssemblyTitle("Epam.Task01.AnotherTriangle")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("Epam.Task01.Triangle")]
+[assembly: AssemblyProduct("Epam.Task01.AnotherTriangle")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("78a5917f-5cc5-44cc-ab05-018732a3f27a")]
+[assembly: Guid("ceda0c5e-ad36-4920-9ea8-ee9023a48e66")]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 //
