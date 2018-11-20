@@ -16,7 +16,7 @@ namespace Epam.Task01.Triangle
 
             if (result && n > 0)
             {
-                Draw(n);
+                DrawTriangle(n);
             }
             else
             {
@@ -24,11 +24,11 @@ namespace Epam.Task01.Triangle
             }
         }
 
-        public static void Draw(int n)
+        public static void DrawTriangle(int n)
         {
-            for (int i = 1; i <= n; i++)
+            for (int i = 0; i < n; i++)
             {
-                for (int j = 1; j <= i; j++)
+                for (int j = 0; j < i; j++)
                 {
                     Console.Write('*');
                 }

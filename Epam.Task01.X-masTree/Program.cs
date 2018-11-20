@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Epam.Task01.AnotherTriangle
+namespace Epam.Task01.X_masTree
 {
     class Program
     {
@@ -16,29 +16,32 @@ namespace Epam.Task01.AnotherTriangle
 
             if (result && n > 0)
             {
-                DrawAnotherTriangle(n);
+                DrawXmasTree(n);
             }
             else
             {
                 Console.WriteLine("Invalid input.");
             }
         }
-        public static void DrawAnotherTriangle(int n)
+        public static void DrawXmasTree(int n)
         {
-            for (int i = 0; i < n; i++)
+            for (int k = 0; k < n; k++)
             {
-                for (int j = 0; j < n + i; j++)
+                for (int i = 0; i < k + 1; i++)
                 {
-                    if (j + i >= n - 1)
+                    for (int j = 0; j < n + i; j++)
                     {
-                        Console.Write('*');
+                        if (j + i >= n - 1)
+                        {
+                            Console.Write('*');
+                        }
+                        else
+                        {
+                            Console.Write(' ');
+                        }
                     }
-                    else
-                    {
-                        Console.Write(' ');
-                    }
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
             }
         }
     }
