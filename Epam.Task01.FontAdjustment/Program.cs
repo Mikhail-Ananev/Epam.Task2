@@ -11,11 +11,11 @@ namespace Epam.Task01.FontAdjustment
         static void Main(string[] args)
         {
             Style style = 0;
-            Console.WriteLine("Параметры надписи:{0}", style);
+            Console.WriteLine("String style:{0}", style);
             do
             {
                 
-                Console.WriteLine("Введите:" + Environment.NewLine +
+                Console.WriteLine("Enter:" + Environment.NewLine +
                     "\t1: bold" + Environment.NewLine +
                     "\t2: italic" + Environment.NewLine +
                     "\t3: underline");
@@ -35,17 +35,17 @@ namespace Epam.Task01.FontAdjustment
                             style ^= Style.underline;
                             break;
                         default:
-                            Console.WriteLine("Введено некорректное значение.");
+                            Console.WriteLine("Incorrect input.");
                             break;
                     }
-                    Console.WriteLine("Параметры надписи:{0}", style);
-                    Console.WriteLine("Для выхода из цикла введите 'exit', для продожения нажмите клавишу 'Enter'");
+                    Console.WriteLine("String style:{0}", style);
+                    Console.WriteLine("To exit the cycle input 'exit', to continue press 'Enter'");
 
                 }
                 else
                 {
-                    Console.WriteLine("Введено некорректное значение");
-                    Console.WriteLine("Для выхода из цикла введите 'exit', для продожения нажмите клавишу 'Enter'");
+                    Console.WriteLine("Incorrect input.");
+                    Console.WriteLine("To exit the cycle input 'exit', to continue press 'Enter'");
                 }
             } while (!string.Equals(Console.ReadLine(), "exit"));
             

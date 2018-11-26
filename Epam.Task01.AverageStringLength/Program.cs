@@ -8,7 +8,6 @@ namespace Epam.Task01.AverageStringLength
 {
     class Program
     {
-        // В программе не учитывается, что слова могут содержать цифры и быть сложно-сочиненными.
         static void Main(string[] args)
         {
             Console.WriteLine("Input string:");
@@ -33,22 +32,22 @@ namespace Epam.Task01.AverageStringLength
                 default:
                     for (int i = 0; i < s.Length; i++)
                     {
-                        if (i < s.Length - 1)                                    // Чтобы не выйти за пределы строки
+                        if (i < s.Length - 1)
                         {
-                            if (i == 0 && Char.IsLetter(s[i]))                   // Если первый символ - "символ" - начинаем считать слова
+                            if (i == 0 && Char.IsLetter(s[i]))
                             {
                                 sumWords++;
                             }
-                            if (!Char.IsLetter(s[i]) && Char.IsLetter(s[i+1]))   // Проверка начала нового слова
+                            if (!Char.IsLetter(s[i]) && Char.IsLetter(s[i+1]))
                             {
                                 sumWords++;
                             }
-                            if (Char.IsLetter(s[i]))                             //Подсчет числа букв
+                            if (Char.IsLetter(s[i]))
                             {
                                 sumSymbols++;
                             }
                         }
-                        if (i == s.Length - 1 && Char.IsLetter(s[i]))            //Проверка последнего символа
+                        if (i == s.Length - 1 && Char.IsLetter(s[i]))
                         {
                             sumSymbols++;
                         }
